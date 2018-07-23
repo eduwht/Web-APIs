@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bikes search</title>
+    <!--<link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">-->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+</head>
+    <body>
+		<div id="container">
+			<div class="row">
+				<div class="col-md-6">
+				<div class="input-group">
+					<input class="form-control col-sm-4" id="inputBikesNumber" type="text" placeholder="Define bikes nº...">
+					<span class="input-group-btn col-sm-3">
+						<button id="searchBikes" class="btn btn-primary" type="button">Search Bikes</button>
+					</span>
+				</div>
+					<br/>
+					<div><strong>Below you can find all the bikes that has been found:</strong></div>
+					<div id="bikefeed"></div>
+				</div>
+				<br/>
+				<div class="col-md-6">
+				
+				<div class="input-group">
+					<input class="form-control col-sm-4" id="inputBrand" type="text" placeholder="Brand...">
+					<span class="input-group-btn col-sm-3">
+						<button id="searchBrand" class="btn btn-primary" type="button">Search Brand</button>	
+					</span>
+				</div>
+				<br/>
+					<div><strong>Below you can find all the bikes with the chosen manufacturer brand:</strong></div>
+					<div id="bikebrand"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div id="ACTI_UF4"></div>
+				</div>
+				<div class="col-md-6">
+					<div id="bikeImage">
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
